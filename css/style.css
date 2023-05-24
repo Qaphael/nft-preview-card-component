@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 :root {
   /* ### Primary */
 
@@ -16,7 +17,7 @@
   --Font-size: 18px;
 
   /* ### Font */
-  --Family: [Outfit](https://fonts.google.com/specimen/Outfit);
+  --Family: 'Outfit', sans-serif;
   --Weights-light: 300;
   --Weights-regular: 400;
   --Weights-bold: 600;
@@ -99,7 +100,7 @@ body {
   left: 0;
   background-color:hsla(178, 100%, 50%, 0.5);
   border-radius: inherit;
-  background-image: url(/images/icon-view.svg);
+  background-image: url("../images/icon-view.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 3rem 3rem;
